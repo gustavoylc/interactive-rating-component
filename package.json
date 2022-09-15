@@ -1,0 +1,13 @@
+{
+	"name": "challenge-newbie-interactive-rating-component",
+	"version": "1.0.0",
+	"description": "This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Gustavo Leyte-Vidal <glcdmx@gmail.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/gustavolvc/challenge-newbie-interactive-rating-component#readme"
+}
