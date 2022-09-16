@@ -1,0 +1,23 @@
+p {
+	font-size: var(--md);
+}
+.section-rating__card-rating,
+.section-rating__card-classification {
+	width: 415px;
+	height: 415px;
+}
+.section-rating__card-rating {
+	padding: 32px;
+}
+.section-rating__card-classification {
+	padding: 45px 36px;
+}
+.section-rating__card-rating__star-container,
+.section-rating__card-rating__button {
+	width: 50px;
+	height: 50px;
+}
+
+.section-rating__card-classification__selection-container {
+	margin: 20px 70px 0 70px;
+}
