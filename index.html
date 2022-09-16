@@ -6,16 +6,13 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
-
 		<title>Frontend Mentor | Interactive rating component</title>
-
 		<link
 			rel="preconnect"
 			href="https://fonts.googleapis.com"
@@ -33,31 +30,44 @@
 			rel="stylesheet"
 			href="./styles/styles.css"
 		/>
+		<script defer src="./src/index.js"></script>
 	</head>
 	<body>
-		<main>
-			<section>
-				<article>
-					<button></button>
-					<h1>How did we do?</h1>
+		<main class="main-container">
+			<section class="section-rating">
+				<article class="section-rating__card-rating">
+					<figure class="section-rating__card-container__star-container">
+						<img
+							class="section-rating__card-container__star-container__image"
+							src="/images/icon-star.svg"
+							alt="star"
+						/>
+					</figure>
+					<h1
+						class="section-rating__card-rating__h1 section-rating__card-rating__h1--color-white section-rating__card-rating__h1--size-bigger"
+					>
+						How did we do?
+					</h1>
 					<p>
 						Please let us know how we did with your support request. All
 						feedback is appreciated to help us improve our offering!
 					</p>
-					<div>
-						<button>1</button>
-						<button>2</button>
-						<button>3</button>
-						<button>4</button>
-						<button>5</button>
-					</div>
-					<button>Submit</button>
+						<div class="section-rating__card-container__buttons-container">
+							<button class="section-rating__card-container__button">1</button>
+							<button class="section-rating__card-container__button">2</button>
+							<button class="section-rating__card-container__button">3</button>
+							<button class="section-rating__card-container__button">4</button>
+							<button class="section-rating__card-container__button">5</button>
+						</div>
+						<button class="section-rating__card-container__submit-button">
+							SUBMIT
+						</button>
 				</article>
-				<article>
+				<article class="section-rating__card-clasification inactive">
 					<figure>
 						<img
-							src=""
-							alt=""
+							src="/images/illustration-thank-you.svg"
+							alt="illustration thank you"
 						/>
 					</figure>
 					<span>You selected 4 out of 5</span>
@@ -70,14 +80,20 @@
 			</section>
 		</main>
 
-		<footer>
-			<div class="attribution">
+		<footer class="footer-container">
+			<div class="footer-container__attribution">
 				Challenge by
 				<a
+					class="footer-container__attribution__a"
 					href="https://www.frontendmentor.io?ref=challenge"
 					target="_blank"
 					>Frontend Mentor</a
-				>. Coded by <a href="#">Gustavo Leyte-Vidal</a>.
+				>. Coded by
+				<a
+					class="footer-container__attribution__a"
+					href="https://github.com/gustavoylc/interactive-rating-component"
+					>Gustavo Leyte-Vidal</a
+				>.
 			</div>
 		</footer>
 	</body>
