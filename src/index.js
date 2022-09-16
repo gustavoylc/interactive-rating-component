@@ -9,7 +9,7 @@ const cardClassification = document.querySelector(
 	".section-rating__card-classification"
 );
 const selection = document.querySelector(
-	".section-rating__card-classification__selection"
+	".section-rating__card-classification__selection-container__text"
 );
 
 let stars = 0;
