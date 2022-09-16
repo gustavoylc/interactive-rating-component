@@ -26,15 +26,15 @@ html {
 
 body {
 	background-color: var(--neutral-dark);
+	color: var(--neutral-light-grey);
+	display: grid;
 	font-family: "Overpass", sans-serif;
 	font-size: var(--sm);
 	font-weight: 400;
-	min-width: 375px;
-	color: var(--neutral-light-grey);
-	display: grid;
-	min-height: 100vh;
 	grid-template-rows: 1fr auto;
 	line-height: 1.5;
+	min-height: 100vh;
+	min-width: 375px;
 }
 
 h1 {
@@ -144,6 +144,9 @@ h1 {
 
 .footer-container {
 	height: 30px;
+	position: absolute;
+	bottom: 0;
+	justify-self: center;
 }
 .footer-container__attribution {
 	font-size: 11px;
