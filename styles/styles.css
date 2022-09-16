@@ -21,7 +21,7 @@ html {
 	--neutral-dark: hsl(228, 11%, 9%);
 	--sm: 1.4rem;
 	--md: 1.5rem;
-	--lg: 2.3rem;
+	--lg: 2.6rem;
 }
 
 body {
@@ -59,7 +59,7 @@ h1 {
 	width: 328px;
 	height: 360px;
 	background-image: linear-gradient(180deg, #222933 0, #191d28 100%);
-	border-radius: 10px;
+	border-radius: 30px;
 	padding: 25px;
 }
 
@@ -80,7 +80,7 @@ h1 {
 	margin: auto auto;
 }
 .section-rating__card-rating__h1 {
-	margin: 22px 0 20px 0;
+	margin: 16px 0 14px 0;
 }
 
 .section-rating__card-rating__buttons-container {
@@ -108,7 +108,8 @@ h1 {
 	width: 100%;
 	height: 45px;
 	border-radius: 25px;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
+	font-size: var(--md);
 }
 
 .section-rating__card-rating__submit-button:hover {
